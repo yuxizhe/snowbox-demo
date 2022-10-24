@@ -1,0 +1,14 @@
+{
+  "presets": ["next/babel", "@babel/preset-flow"],
+  "plugins": [
+    ["react-native-web", { "commonjs": true }]
+    // [
+    //   "module-resolver",
+    //   {
+    //     "alias": {
+    //       "^react-native$": "react-native-web"
+    //     }
+    //   }
+    // ]
+  ]
+}
